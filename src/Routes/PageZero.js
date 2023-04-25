@@ -1,7 +1,8 @@
 import React from 'react'
-import {useEffect } from "react";
+import { useEffect } from "react";
 
-function Page0() {
+function PageZero() {
+
     useEffect(
         ()=>{
             alert("Sample page will be load")
@@ -11,10 +12,12 @@ function Page0() {
         },[]
     )
   return (
-    <div>
-    <h1>Page0</h1>
+    <div >
+    <h1 style={{color:"red"}}>
+    PageZero
+    </h1>
     </div>
   )
 }
 
-export default Page0
+export default PageZero

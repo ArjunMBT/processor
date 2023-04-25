@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import SegmentControl from './Component/SegmentControl';
-
+import SegmentControl from './Routes/SegmentControl';
+import { BrowserRouter,Routes,Route} from 'react-router-dom';
 // import PageMain from './Component/PageMain';
 // <PageMain/>
+
 function App() {
   return (
-    // <div><SegmentControl/></div>
-    <PageMain/>
+    <SegmentControl/>
+   
 );
 }
 
