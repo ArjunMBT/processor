@@ -11,10 +11,10 @@ function SegmentControl() {
     <BrowserRouter>
     <Routes>
         <Route path='/' element={<Menu/>}/>
-        <Route path="/PageZero" element={<><Menu><PageZero/></Menu></>}/>
-        <Route path="/Page8085" element={<><Menu><Page8085/></Menu></>}/>
-        <Route path="/Page8086" element={<><Menu><Page8086/></Menu></>}/>
-        <Route path="/PageArm" element={<><Menu><PageArm/></Menu></>}/>
+        <Route path="/PageZero" element={<><Menu/><PageZero/></>}/>
+        <Route path="/Page8085" element={<><Menu/><Page8085/></>}/>
+        <Route path="/Page8086" element={<><Menu/><Page8086/></>}/>
+        <Route path="/PageArm" element={<><Menu/><PageArm/></>}/>
     </Routes>
     </BrowserRouter>
     </div>

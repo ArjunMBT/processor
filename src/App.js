@@ -8,8 +8,9 @@ import TestRoutes from './ Routes1/TestRoutes';
 // <SegmentControl/>
 
 function App() {
-  return (<>
-   
+  return (
+    <>
+    <SegmentControl/>
     <TestRoutes/>
     </>
 );

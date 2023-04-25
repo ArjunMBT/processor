@@ -1,6 +1,6 @@
 import React from "react";
 
-import {NavLink, Outlet} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 function Menu() {
 
@@ -32,7 +32,7 @@ function Menu() {
     
     </li>
    </ul>
-   <Outlet/>
+   
    </>
   )
 }
