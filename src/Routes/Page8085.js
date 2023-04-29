@@ -1,5 +1,7 @@
 import React from 'react'
 import {useEffect } from "react";
+import PageMain from '../Component/PageMain';
+import Sidebar8085 from '../Semiconductor/F8085/Sidebar8085';
 
 function Page8085() {
     useEffect(
@@ -12,7 +14,9 @@ function Page8085() {
     )
   return (
     <div>
-    <h1>Page8085</h1>
+    <PageMain
+    sidebar8085={<Sidebar8085/>}/>
+    
     </div>
   )
 }

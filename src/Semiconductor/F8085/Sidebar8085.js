@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import ParentComponent from './ParentComponent';
+import ParentComponent8085 from './ParentComponent8085';
 
 
-const Sidebar = () => {
+const Sidebar8085 = () => {
   const [width, setWidth] = useState(250);
 
   const handleMouseMove = (e) => {
@@ -26,7 +26,7 @@ const Sidebar = () => {
         <div className="handle" onMouseDown={handleMouseDown} />
         <ul>
      
-        <ParentComponent/>
+        <ParentComponent8085/>
       
         </ul>
       </div>
@@ -34,4 +34,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default Sidebar8085;

@@ -91,7 +91,11 @@
     border-radius: 0 5px 5px 0;
     cursor: pointer;
   } 
-  
+  .sssearch:hover{
+    color:gold;
+    border: solid 1px greenyellow;
+    background: linear-gradient(to bottom, #291784, #06193f);
+  }
   /* .id1{
     width: 50%;
     border-radius:10px;
@@ -99,5 +103,8 @@
   } */
 /* Sidebar*/
 .Sidebar{
-
+  left:2%;
 }
+.sidebar{
+  overflowY: 'scroll';
+} 

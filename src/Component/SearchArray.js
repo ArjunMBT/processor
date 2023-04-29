@@ -93,7 +93,7 @@ const SearchArray = ({ dataArray }) => {
           onChange={handleInputChange}
         />
         <br />
-        <button type="submit" className='Search button'>Search</button>
+        <button type="submit" className='Search button sssearch'>Search</button>
         
       </form>
       <div style={{ height: '400px', overflowY: 'scroll' }}>

@@ -29,8 +29,10 @@ function Menu() {
 
     <li style={li_style}><NavLink to="/PageArm" style={({isActive})=>
     ({color: isActive ?'red':'blue',backgroundColor: isActive ?"green":"yellow"})}>Arm</NavLink>
-    
     </li>
+   
+  
+
    </ul>
    </>
   )

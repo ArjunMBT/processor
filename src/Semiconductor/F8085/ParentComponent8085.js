@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import SearchArray from './SearchArray';
+import SearchArray8085 from '../F8085/SearchArray8085'
 
-class ParentComponent extends Component {
+class ParentComponent8085 extends Component {
   constructor(props) {
     super(props);
 
@@ -44,10 +44,10 @@ class ParentComponent extends Component {
 
     return (
       <div>
-       <SearchArray dataArray={dataArray} />
+       <SearchArray8085 dataArray={dataArray} />
       </div>
     );
   }
 }
 
-export default ParentComponent;
+export default ParentComponent8085;

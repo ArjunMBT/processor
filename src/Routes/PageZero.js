@@ -1,5 +1,8 @@
 import React from 'react'
 import { useEffect } from "react";
+import PageMain from '../Component/PageMain';
+
+
 
 function PageZero() {
 
@@ -12,11 +15,9 @@ function PageZero() {
         },[]
     )
   return (
-    <div >
-    <h1 style={{color:"red"}}>
-    PageZero
-    </h1>
-    </div>
+  <>
+  <h1>Page zero</h1>
+  </>
   )
 }
 

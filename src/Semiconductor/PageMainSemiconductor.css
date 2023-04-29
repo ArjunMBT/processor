@@ -1,0 +1,180 @@
+
+html, body {
+    height: 100%;
+    background-color: #141731;
+  }
+  
+ .fullcontainer {
+    display: flex;
+    position: relative;
+
+    flex-direction: column; 
+    /* height: 100vh; */
+    /* background-color:#04071c; */
+    flex-wrap:wrap;
+    background: linear-gradient(180deg, #232340 95.72%, #2E335A 1%);
+   
+    color:azure;
+    padding: %;
+    height: 14vh;
+    
+  } 
+  @media screen and (max-width: 600px) {
+    .fullcontainer {
+      height: 24vh;
+      flex-direction: row;
+    }
+  }
+
+ .Arrangement{
+
+ }
+  .SearchBar{
+  display:flex;
+  position:fixed;
+   
+   width:80%;
+   height: 8vh;
+   left:20%;
+   top:.1vh;
+   padding-left: 2%;
+   background: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
+   flex-direction: column;
+
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .SearchBar {
+    width: 100%;
+    height: vh;
+    left:0%;
+    top:8vh;
+    width: 100%;
+    }
+  }
+  .ProjectTitle{
+    display: flex;
+    width:20%;
+    height: 7.5vh;
+    
+    background: linear-gradient(180deg, #2E335A 1.62%, #1C1B33 95.72%);
+    justify-content: left;
+   
+  }
+  @media screen and (max-width: 600px) {
+    .Searchcp {
+      width:100;
+      height: 10vh;
+    left:25%;
+    }
+  }
+
+  .Searchcp{
+    width:50%;
+    background-color: aquamarine;
+    height: 7.5vh;
+    top:1%;
+    left:30%;
+  }
+  @media screen and (max-width: 600px) {
+    .Searchcp {
+      width:100;
+      height: 10vh;
+    }
+  }
+  .SemengtedControl{
+    position:;
+    flex-wrap: wrap;
+    width:99%;
+    height: 6vh;
+    
+    top :8.6vh;
+    padding-left: 2%;
+    background-color: rgb(29,28,52);
+    background: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
+} 
+@media screen and (max-width: 600px) {
+  .SemengtedControl{
+    width:100;
+    height: 8vh;
+    top:15vh;
+  }
+}
+
+
+.ccontainer{
+  display: flex;
+  top:12vh;
+  background: linear-gradient(180deg, #2E335A 1.62%, #1C1B33 95.72%);
+  width: 100%;
+  height: 76vh;
+  padding:.9%;
+  flex-direction: row;
+  color: beige;
+
+}
+@media screen and (max-width: 600px) {
+  .ccontainer {
+    flex-direction: column;
+    top:25vh;
+  }
+}
+.SideBar{
+ 
+/* display: flex; */
+/* flex-wrap: wrap; */
+/* position: flex; */
+width:20% ;
+background: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
+align-items: flex-start;
+}
+@media screen and (max-width: 600px) {
+  .SideBar {
+    width:98%;
+    height: 15vh;
+  }
+}
+
+.MainContent{
+  background: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
+width: 60%;
+}
+@media screen and (max-width: 600px) {
+  .MainContent{
+    width:98%;
+    height: 50vh;
+  }
+}
+.Output{
+  background: linear-gradient(168.44deg, #2E335A 1.62%, #1C1B33 95.72%);
+width: 20%;
+}
+@media screen and (max-width: 600px) {
+  .Output {
+    width:98%;
+    height: 15vh;
+  }
+}
+.Footer{
+  width: 100%;
+  height: 5vh;
+ 
+  color: azure;
+  align-items: center;
+  background: linear-gradient(168.44deg, #141731 1.62%, #1C1B33 95.72%);
+}
+
+.Search ,.button{
+height: 5vh;
+width: 50%;
+padding: 0;
+top:5px;
+font-size: 12px;
+font-weight: bold;
+color: #ffffff;
+background-color: #007bff;
+border: none;
+border-radius: 5px 5px ; 
+cursor: pointer;
+}

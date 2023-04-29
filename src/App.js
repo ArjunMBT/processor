@@ -1,15 +1,23 @@
 import React from 'react';
 import './App.css';
-import SegmentControl from './Routes/SegmentControl';
+
 import { BrowserRouter,Routes,Route} from 'react-router-dom';
-// import PageMain from './Component/PageMain';
-// <PageMain/>
+import PageMain from './Component/PageMain';
+import SegmentControl from './Routes/SegmentControl';
+import Sidebar8085 from './Semiconductor/F8085/Sidebar8085';
+
 
 function App() {
   return (
-    <SegmentControl/>
-   
-);
+    <>
+   <PageMain/>
+    </>
+  );
 }
 
 export default App;
+
+
+
+
+
