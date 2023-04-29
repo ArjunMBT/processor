@@ -23,9 +23,9 @@ export default function PageMain(props) {
           </div>
       <div className='ccontainer'> 
           <div className='item SideBar'>
-    {if(searchType === "8085") <Sidebar property='8085'/>
+    {if(searchType === "8085") <Sidebar8085 />
     
-     else if(searchType === "8086") <Sidebar property='8085'/>
+     else if(searchType === "8086") <Sidebar8086 />
     }
            </div>
           <div className=' item MainContent'> <StringSplitter/></div>
