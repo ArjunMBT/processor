@@ -7,10 +7,9 @@ import Sidebar from './Sidebar';
 import StringSplitter from './StringSplitter';
 import SegmentControl from '../Routes/SegmentControl';
 
-// <Sidebar/>
 
 export default function PageMain(props) {
-  const searchType = props.searchType;
+  // const searchbarType = props.searchbarType;
   return(
     <>
     <div className='fullcontainer'>
@@ -23,10 +22,7 @@ export default function PageMain(props) {
           </div>
       <div className='ccontainer'> 
           <div className='item SideBar'>
-    {if(searchType === "8085") <Sidebar8085 />
-    
-     else if(searchType === "8086") <Sidebar8086 />
-    }
+    <Sidebar/>
            </div>
           <div className=' item MainContent'> <StringSplitter/></div>
           <div className='item Output'>I am output</div>

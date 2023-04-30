@@ -14,12 +14,8 @@ function Page8085() {
     )
   return (
     <div>
-    <PageMain
-    sidebar8085={<Sidebar8085/>}
-    searchbarType="8085"
-    />
-    
-    </div>
+    I am 8085
+   </div>
   )
 }
 
