@@ -11,8 +11,8 @@ const SearchArray8085 = ({ dataArray }) => {
     event.preventDefault();
     const results = dataArray.filter(
       (item) =>
-        item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        item.description.toLowerCase().includes(searchTerm.toLowerCase())
+        item.Name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        item.Description.toLowerCase().includes(searchTerm.toLowerCase())
     );
     setSearchResults(results);
     setSearchTerm('');
@@ -44,10 +44,10 @@ const SearchArray8085 = ({ dataArray }) => {
           <ul>
             {searchResults.map((result) => (
               <li key={result.id}>
-                <h3>{result.name}</h3>
-                <p>{result.description}</p>
-                <p>{result.date}</p>
-                <p>{result.location}</p>
+                <h3>{result.Name}</h3>
+                <p>{result.Description}</p>
+                <p>{result.Example}</p>
+                <p>{result.Addressing}</p>
               </li>
             ))}
           </ul>

@@ -6,10 +6,10 @@ import Search from './Search';
 import Sidebar from './Sidebar';
 import StringSplitter from './StringSplitter';
 import SegmentControl from '../Routes/SegmentControl';
+import StringSplitter8085 from '../Semiconductor/F8085/StringSplitter8085';
 import Sidebar8085 from '../Semiconductor/F8085/Sidebar8085';
 
-
-export default function PageMain(props) {
+export default function PageMain8085(props) {
   // const searchbarType = props.searchbarType;
   return(
     <>
@@ -23,9 +23,9 @@ export default function PageMain(props) {
           </div>
       <div className='ccontainer'> 
           <div className='item SideBar'>
-    <Sidebar/>
+    <Sidebar8085/>
            </div>
-          <div className=' item MainContent'> <StringSplitter/></div>
+          <div className=' item MainContent'> <StringSplitter8085/></div>
           <div className='item Output'>I am output</div>
           </div>
       <div className=' item Footer FooterStyle'><CopyrightNotice/> </div>
@@ -34,4 +34,3 @@ export default function PageMain(props) {
   
 )
 }
-
